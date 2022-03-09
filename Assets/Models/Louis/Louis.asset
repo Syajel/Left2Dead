@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc0cb4578466f584cb20ff7f7eda703c, type: 3}
+  m_Name: Louis
+  m_EditorClassIdentifier: 
+  name: Louis
+  backgroundInfo: Info
+  weapon: {fileID: 100000, guid: cd8d56469cf64654eaa21e15c6ae7c18, type: 3}
+  damage: 33
+  clipNumber: 4
+  ClipCapacity: 50
+  rateOfFire: 4
+  graspWeaponName: mixamorig4:LeftHand
+  weaponShootingPosition: {x: 0.196, y: -0.053, z: 0.014}
+  weaponShootingEulerAngle: {x: 333.56503, y: 266.8344, z: 69.40453}
+  weaponShootingScale: {x: 0.5, y: 0.5, z: 0.5}
+  releaseWeaponName: mixamorig4:LeftShoulder
+  weaponNormalPosition: {x: -0.094, y: -0.094, z: 0.15}
+  weaponNormalEulerAngle: {x: 341.7246, y: 355.49072, z: 2.026347}
+  weaponNormalScale: {x: 0.4, y: 0.4, z: 0.4}

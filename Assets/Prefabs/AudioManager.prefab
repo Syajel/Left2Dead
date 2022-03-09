@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3896121815731060786
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3896121815731060784}
+  - component: {fileID: 3896121815731060785}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3896121815731060784
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3896121815731060786}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3896121815731060785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3896121815731060786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c20a30d87da6589468bde96e2f28a8a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - clip: {fileID: 0}
+    name: 
+    type: 
+    volume: 0.485
+    pitch: 1.1
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 0}
+    name: 
+    type: 
+    volume: 0.191
+    pitch: 1.06
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 0}
+    name: 
+    type: 
+    volume: 0.412
+    pitch: 1.06
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: e07f5deb4148c3747a8cc7ae18286748, type: 3}
+    name: ragemode
+    type: 
+    volume: 0.428
+    pitch: 1.06
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: 25ffd6d9014c84a4fbf6f4314cb49672, type: 3}
+    name: hit
+    type: 
+    volume: 0.453
+    pitch: 1.06
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: 75f0112db876d3543942260d7cc3550e, type: 3}
+    name: bullet
+    type: 
+    volume: 0.428
+    pitch: 1.06
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: 565bdaa5d772228469c4357f4a44e404, type: 3}
+    name: pickup
+    type: 
+    volume: 0.472
+    pitch: 1.06
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: f554aa70da6f42a4eb7705d4ca4d89fe, type: 3}
+    name: dying
+    type: 
+    volume: 0.617
+    pitch: 1.06
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: 3fcd15ed8d174004e84fb3fbc93345fb, type: 3}
+    name: switchweapon
+    type: 
+    volume: 0.617
+    pitch: 1.06
+  - clip: {fileID: 8300000, guid: 0033cd56e89adbf4a913c3f1c718ef0e, type: 3}
+    name: StartScreen
+    type: music
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - clip: {fileID: 8300000, guid: 90ddaf83960aa844d90b58e37943c337, type: 3}
+    name: Level_Design_1
+    type: music
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - clip: {fileID: 8300000, guid: df9473c15670f424cad17e0e8521d4ec, type: 3}
+    name: Level_Design_2
+    type: music
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - clip: {fileID: 8300000, guid: 8c0360318a33c6f47957a3f8bd16a76b, type: 3}
+    name: zombieDying
+    type: music
+    volume: 0.16
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
